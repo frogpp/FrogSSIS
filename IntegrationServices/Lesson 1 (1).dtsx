@@ -5,14 +5,14 @@
   DTS:CreationName="Microsoft.Package"
   DTS:CreatorComputerName="ASUS-X555LF"
   DTS:CreatorName="ASUS-X555LF\frogp"
-  DTS:DTSID="{0962E8CA-D27D-4A2B-9157-51F5B34892C2}"
+  DTS:DTSID="{A3443DFB-EE69-4887-AC58-B494EDA2115E}"
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="15.0.2000.149"
   DTS:LocaleID="1033"
   DTS:ObjectName="第 1 課"
   DTS:PackageType="5"
-  DTS:VersionBuild="12"
-  DTS:VersionGUID="{7BFEE6F5-B0A7-479B-A0A6-7F2EB8C7F13B}">
+  DTS:VersionBuild="13"
+  DTS:VersionGUID="{A7F06FB6-ECAD-46D0-B5A1-926CDF2B7168}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -20,7 +20,7 @@
       DTS:refId="Package.ConnectionManagers[Flat File Connection Manager]"
       DTS:CreationName="FLATFILE"
       DTS:Description="一般檔案來源資料"
-      DTS:DTSID="{F23DC4C5-0564-4B02-971D-34B6FD34DF46}"
+      DTS:DTSID="{928AA1EB-80F3-4606-BA28-65F4189A0E4B}"
       DTS:ObjectName="Flat File Connection Manager">
       <DTS:ObjectData>
         <DTS:ConnectionManager
@@ -38,7 +38,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="AverageRate"
-              DTS:DTSID="{8367BD7C-FB21-4715-89F5-1B887FD688FF}"
+              DTS:DTSID="{3CBE949F-6C67-4573-8A52-4734377DE08A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -47,7 +47,7 @@
               DTS:DataType="130"
               DTS:TextQualified="True"
               DTS:ObjectName="CurrencyID"
-              DTS:DTSID="{1D641218-DDAE-4C5F-9D14-277092CCC626}"
+              DTS:DTSID="{D497D917-D92D-4BBA-997C-7DC8A92C8441}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -55,7 +55,7 @@
               DTS:DataType="133"
               DTS:TextQualified="True"
               DTS:ObjectName="CurrencyDate"
-              DTS:DTSID="{D270C777-A7B4-4372-964C-D57E2B1135BE}"
+              DTS:DTSID="{FE994EC6-4ED0-4E08-9D01-367C7CEA7953}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -63,7 +63,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="EndOfDayRate"
-              DTS:DTSID="{7029C681-DF81-469B-B3CC-E4D17F0A7E73}"
+              DTS:DTSID="{AC2B44F7-50D4-429B-B0E4-DB94FCEA2D46}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -72,7 +72,7 @@
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[localhost.AdventureWorksDW2012]"
       DTS:CreationName="OLEDB"
-      DTS:DTSID="{C0CAE4A3-F53C-4D20-9F43-247B7A351667}"
+      DTS:DTSID="{B57322C5-FEEE-4FD3-B49A-0F2D1815224A}"
       DTS:ObjectName="localhost.AdventureWorksDW2012">
       <DTS:ObjectData>
         <DTS:ConnectionManager
@@ -86,7 +86,7 @@
       DTS:refId="Package\Extract Sample Currency Data"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
-      DTS:DTSID="{DB621C62-BF0C-4290-8AA7-15F2466DAB81}"
+      DTS:DTSID="{B1BB968F-84DA-4711-95FB-AB65C13CE501}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
       DTS:ObjectName="Extract Sample Currency Data"
@@ -800,62 +800,16 @@ where [refTable].[CurrencyAlternateKey] = ?</property>
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="186,42"
-          Id="Package\Extract Sample Currency Data\擷取範例貨幣資料"
-          TopLeft="193.625,33.7666666528914" />
+          Id="Package\Extract Sample Currency Data\查閱日期索引鍵"
+          TopLeft="193.625,176.722223140575" />
         <NodeLayout
           Size="186,42"
           Id="Package\Extract Sample Currency Data\查閱貨幣索引鍵"
           TopLeft="193.625,105.244444896733" />
-        <EdgeLayout
-          Id="Package\Extract Sample Currency Data.Paths[Flat File Source Output]"
-          TopLeft="286.625,75.7666666528914">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,29.4777782438419"
-              Start="0,0"
-              End="0,21.9777782438419">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,21.9777782438419" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
         <NodeLayout
           Size="186,42"
-          Id="Package\Extract Sample Currency Data\查閱日期索引鍵"
-          TopLeft="193.625,176.722223140575" />
-        <EdgeLayout
-          Id="Package\Extract Sample Currency Data.Paths[Lookup Match Output]"
-          TopLeft="286.625,147.244444896733">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,29.4777782438419"
-              Start="0,0"
-              End="0,21.9777782438419">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,21.9777782438419" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-48.19138671875,5.18420162192096,96.3827734375,11.609375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+          Id="Package\Extract Sample Currency Data\擷取範例貨幣資料"
+          TopLeft="193.625,33.7666666528914" />
         <NodeLayout
           Size="186,42"
           Id="Package\Extract Sample Currency Data\範例 OLE DB 目的地"
@@ -882,6 +836,52 @@ where [refTable].[CurrencyAlternateKey] = ?</property>
             <mssgm:EdgeLabel
               BoundingBox="-48.19138671875,5.18420162192098,96.3827734375,11.609375"
               RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Extract Sample Currency Data.Paths[Lookup Match Output]"
+          TopLeft="286.625,147.244444896733">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,29.4777782438419"
+              Start="0,0"
+              End="0,21.9777782438419">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,21.9777782438419" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-48.19138671875,5.18420162192096,96.3827734375,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Extract Sample Currency Data.Paths[Flat File Source Output]"
+          TopLeft="286.625,75.7666666528914">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,29.4777782438419"
+              Start="0,0"
+              End="0,21.9777782438419">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,21.9777782438419" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
