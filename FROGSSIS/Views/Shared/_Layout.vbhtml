@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <title>@ViewBag.Title - Music Box</title>
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     @Styles.Render("~/Content/css")
@@ -17,11 +17,11 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("Application name", "Index", "Home", New With { .area = "" }, New With { .class = "navbar-brand" })
+                @Html.ActionLink("Music Box", "Index", "Home", New With {.area = ""}, New With {.class = "navbar-brand"})
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home", New With { .area = "" }, Nothing)</li>
+                    <li>@Html.ActionLink("Home Page", "Index", "Home", New With {.area = ""}, Nothing)</li>
                     <li>@Html.ActionLink("API", "Index", "Help", New With { .area = "HelpPage" }, Nothing)</li>
                 </ul>
                 @Html.Partial("_LoginPartial")
