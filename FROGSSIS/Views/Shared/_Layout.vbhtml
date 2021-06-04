@@ -33,7 +33,7 @@
         @RenderSection("SPAViews", required:=False)
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            <p>&copy; @DateTime.Now.Year - Music Box</p>
         </footer>
     </div>
 
