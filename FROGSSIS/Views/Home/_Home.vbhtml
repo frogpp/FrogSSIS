@@ -21,9 +21,6 @@
             <li>
                 <a href="../Media/MP4/roxette-shes-got-the-look-dj-kaktuz-remix.mp4">roxette-shes-got-the-look-dj-kaktuz-remix</a>
             </li>
-            <li>
-                <a href="../Media/MP4/越南鼓2016%20EDM越南神鼓%20DJ%20nonstop%20低音質試聽%20Part%203.mp4">越南鼓2016 EDM越南神鼓 DJ nonstop 低音質試聽 Part 3</a>
-            </li>
         </ul>
         <p><a class="btn btn-default" href="#">More &raquo;</a></p>
     </div>

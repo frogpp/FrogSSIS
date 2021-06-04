@@ -108,3 +108,4 @@ Backup*/
 UpgradeLog*.XML
 /FrogWebAPI/App_Data/Database1_log.ldf
 /FrogWebAPI/App_Data/Database1.mdf
+/FROGSSIS/App_Data/aspnet-FROGSSIS-20201223031036.mdf
