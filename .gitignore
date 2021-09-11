@@ -109,3 +109,10 @@ UpgradeLog*.XML
 /FrogWebAPI/App_Data/Database1_log.ldf
 /FrogWebAPI/App_Data/Database1.mdf
 /FROGSSIS/App_Data/aspnet-FROGSSIS-20201223031036.mdf
+/UpgradeLog3.htm
+/UpgradeLog2.htm
+/UpgradeLog.htm
+/.vs/FROGSSIS/v15/Server/sqlite3/storage.ide-wal
+/.vs/FROGSSIS/v15/Server/sqlite3/storage.ide-shm
+/.vs/FROGSSIS/v15/Server/sqlite3/storage.ide
+/.vs/FROGSSIS/v15/Server/sqlite3/db.lock
