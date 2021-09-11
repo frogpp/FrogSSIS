@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "FROGSSIS", "FROGSSIS\FROGSSIS.vbproj", "{503E04A2-DE69-4411-A196-BEBF455FF649}"
-EndProject
 Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "IntegrationServices", "IntegrationServices\IntegrationServices.dtproj", "{59481669-3E08-4375-BC87-08104FF8F9C9}"
 EndProject
 Global
@@ -14,12 +12,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{503E04A2-DE69-4411-A196-BEBF455FF649}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{503E04A2-DE69-4411-A196-BEBF455FF649}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{503E04A2-DE69-4411-A196-BEBF455FF649}.Development|Any CPU.ActiveCfg = Debug|Any CPU
-		{503E04A2-DE69-4411-A196-BEBF455FF649}.Development|Any CPU.Build.0 = Debug|Any CPU
-		{503E04A2-DE69-4411-A196-BEBF455FF649}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{503E04A2-DE69-4411-A196-BEBF455FF649}.Release|Any CPU.Build.0 = Release|Any CPU
 		{59481669-3E08-4375-BC87-08104FF8F9C9}.Debug|Any CPU.ActiveCfg = Development
 		{59481669-3E08-4375-BC87-08104FF8F9C9}.Debug|Any CPU.Build.0 = Development
 		{59481669-3E08-4375-BC87-08104FF8F9C9}.Development|Any CPU.ActiveCfg = Development
